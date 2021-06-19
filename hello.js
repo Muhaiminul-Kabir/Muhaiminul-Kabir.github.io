@@ -8,7 +8,7 @@ name();
 
 function name(){
   for (var i = 0; i < 12; i++) {
-    document.write("<h1><script> document.write(c)</script</h1>");
+    document.write("<h1><script> document.write(c)</script></h1>");
     document.write('<br>');
   }
 }
