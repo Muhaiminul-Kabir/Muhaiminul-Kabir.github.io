@@ -1,14 +1,22 @@
-var x = 2+7+7+7+7+7+8+8+8+8+8+9;
-var y = 'gsyshshus';
+alert("jk");
+let x = -1;
+let y = 0;
+var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  
+ 
+function myFunction() {
+    x++;
+    document.getElementById("demo").innerHTML = y + " : " + x;
+    if (x>58) {
+        x= -1; 
+        y++;
+        ;
+    } 
+}
 
-var a;
-var c = prompt('enter your name',"name");
-alert("welcom "+ c);
-name();
-
-function name(){
-  for (var i = 0; i < 12; i++) {
-    document.write(c);
-    document.write('<br>');
-  }
+function myFunction2() {
+    x = 0;
+}
+function print(){
+    window.print();
 }
